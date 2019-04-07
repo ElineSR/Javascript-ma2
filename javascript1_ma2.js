@@ -1,16 +1,17 @@
 //MODULE ASSIGNMENT 2 - LEVEL 1 (Eline Selenius Riise)
 //1. Create a function that displays prototypal inheritance
-	var fish = {
-		svims:true
-	};
-	var cod = {
-		fishtail: true
+	
+	function horse(){
+		this.breed = "Mogolian horse"
+	
+	}
+	horse.prototype.type = function (){
+		console.log("My origins comes from the "+ this.breed);
 	};
 	
-	cod._proto_ = fish;
-
-	console.log(cod.svims);
-	console.log(cod.fishtail);
+	var fjord = new horse();
+	fjord.type();
+	
 
 //2. Create an array of numbers from 1 - 10; slice the 5th number in the array
 
@@ -34,12 +35,11 @@
 //4. Given the following paragraph, create a JavaScript function that changes all mentions of strawberry to banana and strawberries to bananas: 
 	
 
-	function berryFruitString(arrayStr){
+	function berryFruitString(){
 		var str = "Strawberries are a popular part of spring and summer diets throughout America. Mouths water from coast to coast each spring, when small white blossoms start to appear on strawberry bushes. They announce the impending arrival of the ruby red berries that so many people crave. Ripe strawberries taste sweet and have only a slight hint of tartness. They are also one of the healthiest fruits around. There are countless recipes for the luscious red berry, but many people prefer to eat them fresh and unaccompanied.";
-		
-	
+		var res = str.split (" ");	
 }
-console.log();
+///NOT COMPLETE!  I was thinking I would find a way to replace strawberry and strawberries now that I have made the string into an array, and then combine it back to a string.
 
 
 //5. Create an array and a button. The array should contain 4 football clubs names. When the button is clicked, remove all elements out of the array that we just created. There after add in 4 names of cars inside that array. Log it to the console.
@@ -56,7 +56,7 @@ console.log();
 	
 }
 
-
+//NOT COMPLETE! Needed to figure out the button and  etc.
 
 //6. Create an array of objects with 3 people inside it. Use the filter function to map by a name.
 
@@ -74,7 +74,7 @@ var peopleName = people.filter(names, function(name){
 //	return people.name 
 //}) 
 
-
+//NOT COMPLETE! tried to use the example from the Lynda course. got confused.
 
 
 
