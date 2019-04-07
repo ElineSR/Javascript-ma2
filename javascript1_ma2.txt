@@ -1,0 +1,62 @@
+//MODULE ASSIGNMENT 2 - LEVEL 1
+
+1. What is a function literal?
+	
+	Function Literal uses the reserved word function. It is optional if you want to give it 
+	a name, but this name can be used to call the function repeatedly and is good for 
+	identifying it during debugging. If there is no name it is anonymous. The parameters 
+	are wrapped in parentheses and can hold none or several parameter names separated by commas.
+	These become variables within the function and initialized to the arguments supplied. 
+	The statements wrapped in curly braces are the body of the function and are executed when invoked.
+
+
+
+2. What is the constructor?
+
+	Every function expression is a constructor. constructor is a terminology from 
+	object oriented programming. It is also a method that returns the function 
+	that created this object's instance. 
+	
+
+
+
+
+
+
+
+3. What does the return statement do?
+
+	The return statement is used when you want return a value from a function. 
+	Everything inside a function will stop after it has reached the return 
+	statement. The code after return will not be executed and be declared 
+	unreachable.  
+
+
+
+
+
+
+
+4. What will be written to the console from this function:
+		function myFunction(){
+			  return console.log('inside my function');
+			  console.log('My name is Andy');
+		}
+		myFunction();
+		
+		This console logs: inside my function 
+
+
+
+
+
+
+
+
+5. Briefly describe scope in JavaScript.
+
+	There are two types: global and lokal scope.The global scope 
+	is outside the functions and can be used by all. Lokal scope 
+	is inside functions and can only be accessed there. Lokal 
+	scope can access global scope, but global scope can not 
+	access lokal scope. 
